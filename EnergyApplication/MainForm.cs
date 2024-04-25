@@ -33,23 +33,7 @@ namespace EnergyApplication
             childFormOpen = true;
         }
 
-        private void apartmentSearchButton_Click(object sender, EventArgs e)
-        {
-            apartmentSearchForm myApartmentSearchForm = new apartmentSearchForm();
-            myApartmentSearchForm.FormClosed += ChildForm_FormClosed;
-            myApartmentSearchForm.Show();
-            this.Enabled = false;
-            childFormOpen = true;
-        }
-
-        private void exportButton_Click(object sender, EventArgs e)
-        {
-            exportForm myExportForm = new exportForm();
-            myExportForm.FormClosed += ChildForm_FormClosed;
-            myExportForm.Show();
-            this.Enabled = false;
-            childFormOpen = true;
-        }
+      
         private void ChildForm_FormClosed(object sender, FormClosedEventArgs e)
         {
 

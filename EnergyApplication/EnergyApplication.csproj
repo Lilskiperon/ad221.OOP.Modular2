@@ -80,18 +80,6 @@
       <DependentUpon>apartmentRegisterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ApartmentRegisterFormTests.cs" />
-    <Compile Include="apartmentSearchForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="apartmentSearchForm.Designer.cs">
-      <DependentUpon>apartmentSearchForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="exportForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="exportForm.Designer.cs">
-      <DependentUpon>exportForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,12 +90,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="apartmentRegisterForm.resx">
       <DependentUpon>apartmentRegisterForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="apartmentSearchForm.resx">
-      <DependentUpon>apartmentSearchForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="exportForm.resx">
-      <DependentUpon>exportForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
